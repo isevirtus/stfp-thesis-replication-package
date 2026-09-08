@@ -1,0 +1,830 @@
+﻿"Judge ONLY technical fit and prior collaboration. Set aside availability, cost, seniority and client constraints — Q2 and Q3 are where those belong.",,,,,,,, ,,,
+Row,Project,Team A,Team A — roster,Team A — Technical indicators,Team A — Collaboration indicators,Team B,Team B — roster,Team B — Technical indicators,Team B — Collaboration indicators,Q1. Which team better fits this project?,Q2. Anything you would add? (optional)
+EXAMPLE,P09,T-4287,"Dev261, Dev481, Dev309, Dev156, Dev011, Dev255, Dev002","TECHNICAL COVERAGE
+MUST       4/4  ✓ COMPLETE
+SHOULD   3/3  ✓ COMPLETE
+COULD     2/3  ⚠ 1 MISSING
+
+REDUNDANCY
+⚠ 2/4 MUST covered by 2+ members
+","COLLABORATION
+PAIRS          9/21  (42%)
+████░░░░░░
+
+SHARED PROJECTS
+MEAN           1.0 per pair
+WITH HISTORY   2.3 per pair
+
+STRONGEST PAIR
+8 shared projects
+
+",T-5435,"Dev460, Dev405, Dev341, Dev080, Dev505, Dev408, Dev464","TECHNICAL COVERAGE
+MUST       3/4  ⚠ 1 MISSING
+SHOULD   3/3  ✓ COMPLETE
+COULD     2/3  ⚠ 1 MISSING
+
+MISSING MANDATORY REQUIREMENT
+⚠ React (ecosystem)
+
+REDUNDANCY
+⚠ 1/4 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 8/21 (38%)
+████░░░░░░
+
+Shared projects: 21 total
+Mean among pairs with history: 2.6
+Strongest-history pair: 8 project(s)
+",A,A covers both MUST ecosystems; B is stronger on prior collaboration but I recall two of them were committed elsewhere.
+C002,P5,T-3917,"Cora-145
+Luma-214
+Iris-81
+Jade-370","TECHNICAL COVERAGE
+MUST       1/1   ✓ COMPLETE
+SHOULD     8/8   ✓ COMPLETE
+COULD      24/34   ⚠ 10 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Web — 4 member(s)
+
+REDUNDANCY
+✓ 1/1 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 6/6 (100%)
+██████████
+Shared projects: 27 total
+Mean among pairs with history: 4.5
+Strongest-history pair: 8 project(s)",T-2822,"Nilo-467
+Lara-415
+Ravi-398
+Mel-316","TECHNICAL COVERAGE
+MUST       1/1   ✓ COMPLETE
+SHOULD   5/8   ⚠ 3 MISSING
+COULD     21/34   ⚠ 13 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Web — 2 member(s)
+
+REDUNDANCY
+✓ 1/1 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 6/6 (100%)
+██████████
+Shared projects: 33 total
+Mean among pairs with history: 5.5
+Strongest-history pair: 8 project(s)",,
+C003,P16,T-7294,"Tom-183
+Maia-351
+Gabi-679
+Ceci-363
+Jade-500
+Mila-482
+Max-509
+Zoe-181
+Raul-423","TECHNICAL COVERAGE
+MUST       — NOT DEFINED
+SHOULD     12/12   ✓ COMPLETE
+COULD      51/57   ⚠ 6 MISSING
+
+MANDATORY REQUIREMENTS
+No MUST requirement defined.
+
+REDUNDANCY
+Not applicable","REGISTERED COLLABORATION
+Pairs with history: 31/36 (86%)
+█████████░
+Shared projects: 134 total
+Mean among pairs with history: 4.3
+Strongest-history pair: 23 project(s)",T-9373,"Mia-317
+Iris-81
+Mel-316
+Nilo-467
+Lara-415
+Jade-370
+Ravi-398
+Leo-336
+Enzo-282","TECHNICAL COVERAGE
+MUST       — NOT DEFINED
+SHOULD   10/12   ⚠ 2 MISSING
+COULD     33/57   ⚠ 24 MISSING
+
+MANDATORY REQUIREMENTS
+No MUST requirement defined.
+
+REDUNDANCY
+Not applicable","REGISTERED COLLABORATION
+Pairs with history: 36/36 (100%)
+██████████
+Shared projects: 201 total
+Mean among pairs with history: 5.6
+Strongest-history pair: 12 project(s)",,
+C008,P4,T-2703,"Bela-492
+Teo-257
+Lino-496
+Gabi-94
+Mia-382
+Enzo-477
+Mila-27
+Jade-500
+Davi-615","TECHNICAL COVERAGE
+MUST       2/2   ✓ COMPLETE
+SHOULD   15/17   ⚠ 2 MISSING
+COULD     43/79   ⚠ 36 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Web — 8 member(s)
+✓ AWS — 7 member(s)
+
+REDUNDANCY
+✓ 2/2 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 36/36 (100%)
+██████████
+Shared projects: 184 total
+Mean among pairs with history: 5.1
+Strongest-history pair: 22 project(s)",T-8254,"Tom-183
+Levi-559
+Mila-27
+Ceci-363
+Jade-500
+Ada-326
+Gil-516
+Gabi-354
+Yuri-551","TECHNICAL COVERAGE
+MUST       2/2   ✓ COMPLETE
+SHOULD     17/17   ✓ COMPLETE
+COULD      76/79   ⚠ 3 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Web — 9 member(s)
+✓ AWS — 8 member(s)
+
+REDUNDANCY
+✓ 2/2 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 28/36 (78%)
+████████░░
+Shared projects: 188 total
+Mean among pairs with history: 6.7
+Strongest-history pair: 24 project(s)",,
+C009,P3,T-6676,"Lara-415
+Jade-370
+Enzo-282
+Leo-336
+Iris-211","TECHNICAL COVERAGE
+MUST       3/3   ✓ COMPLETE
+SHOULD   6/15   ⚠ 9 MISSING
+COULD     23/50   ⚠ 27 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Cloud — 3 member(s)
+✓ AWS — 2 member(s)
+✓ Docker — 2 member(s)
+
+REDUNDANCY
+✓ 3/3 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 9/10 (90%)
+█████████░
+Shared projects: 44 total
+Mean among pairs with history: 4.9
+Strongest-history pair: 7 project(s)",T-2468,"Zeca-538
+Maia-351
+Zeca-473
+Sara-154
+Zoe-181","TECHNICAL COVERAGE
+MUST       3/3   ✓ COMPLETE
+SHOULD     15/15   ✓ COMPLETE
+COULD      37/50   ⚠ 13 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Cloud — 4 member(s)
+✓ AWS — 4 member(s)
+✓ Docker — 5 member(s)
+
+REDUNDANCY
+✓ 3/3 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 7/10 (70%)
+███████░░░
+Shared projects: 31 total
+Mean among pairs with history: 4.4
+Strongest-history pair: 7 project(s)",,
+C016,P15,T-3452,"Teo-582
+Ravi-398
+Mila-27
+Hugo-608
+Jade-500","TECHNICAL COVERAGE
+MUST       — NOT DEFINED
+SHOULD     23/23   ✓ COMPLETE
+COULD      31/31   ✓ COMPLETE
+
+MANDATORY REQUIREMENTS
+No MUST requirement defined.
+
+REDUNDANCY
+Not applicable","REGISTERED COLLABORATION
+Pairs with history: 8/10 (80%)
+████████░░
+Shared projects: 35 total
+Mean among pairs with history: 4.4
+Strongest-history pair: 22 project(s)",T-9656,"Miro-563
+Miro-498
+Jo-583
+Nilo-467
+Ian-570","TECHNICAL COVERAGE
+MUST       — NOT DEFINED
+SHOULD   10/23   ⚠ 13 MISSING
+COULD     10/31   ⚠ 21 MISSING
+
+MANDATORY REQUIREMENTS
+No MUST requirement defined.
+
+REDUNDANCY
+Not applicable","REGISTERED COLLABORATION
+Pairs with history: 9/10 (90%)
+█████████░
+Shared projects: 37 total
+Mean among pairs with history: 4.1
+Strongest-history pair: 6 project(s)",,
+C019,P1,T-6084,"Eli-178
+Ivo-655
+Zoe-636
+Mia-447
+Mila-27
+Mila-482
+Ana-578
+Miro-303
+Jade-435","TECHNICAL COVERAGE
+MUST       2/2   ✓ COMPLETE
+SHOULD     13/13   ✓ COMPLETE
+COULD      64/65   ⚠ 1 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Mobile — 9 member(s)
+✓ Web — 9 member(s)
+
+REDUNDANCY
+✓ 2/2 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 28/36 (78%)
+████████░░
+Shared projects: 148 total
+Mean among pairs with history: 5.3
+Strongest-history pair: 23 project(s)",T-6473,"Luiz-324
+Rosa-359
+Ana-448
+Jade-305
+Gael-170
+Hugo-543
+Eli-503
+Ana-578
+Lara-220","TECHNICAL COVERAGE
+MUST       2/2   ✓ COMPLETE
+SHOULD   13/13   ✓ COMPLETE
+COULD     38/65   ⚠ 27 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Mobile — 8 member(s)
+✓ Web — 9 member(s)
+
+REDUNDANCY
+✓ 2/2 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 36/36 (100%)
+██████████
+Shared projects: 160 total
+Mean among pairs with history: 4.4
+Strongest-history pair: 11 project(s)",,
+C020,P8,T-1457,"Jade-370
+Ravi-398
+Lara-415
+Leo-336
+Iris-81","TECHNICAL COVERAGE
+MUST       2/2   ✓ COMPLETE
+SHOULD   17/18   ⚠ 1 MISSING
+COULD     15/32   ⚠ 17 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Web — 3 member(s)
+✓ AWS — 2 member(s)
+
+REDUNDANCY
+✓ 2/2 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 10/10 (100%)
+██████████
+Shared projects: 46 total
+Mean among pairs with history: 4.6
+Strongest-history pair: 6 project(s)",T-1846,"Cora-145
+Iris-81
+Luma-214
+Ceci-688
+Hugo-543","TECHNICAL COVERAGE
+MUST       2/2   ✓ COMPLETE
+SHOULD     18/18   ✓ COMPLETE
+COULD      27/32   ⚠ 5 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Web — 5 member(s)
+✓ AWS — 4 member(s)
+
+REDUNDANCY
+✓ 2/2 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 9/10 (90%)
+█████████░
+Shared projects: 28 total
+Mean among pairs with history: 3.1
+Strongest-history pair: 8 project(s)",,
+C021,P13,T-2375,"Nilo-142
+Ceci-688
+Iris-81
+Jade-370","TECHNICAL COVERAGE
+MUST       4/4   ✓ COMPLETE
+SHOULD     3/3   ✓ COMPLETE
+COULD      7/8   ⚠ 1 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Hardware — 2 member(s)
+✓ NumPy — 1 member(s)
+✓ C — 4 member(s)
+✓ Python — 1 member(s)
+
+REDUNDANCY
+✓ 2/4 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 5/6 (83%)
+████████░░
+Shared projects: 12 total
+Mean among pairs with history: 2.4
+Strongest-history pair: 5 project(s)",T-1559,"Caio-589
+Jo-583
+Miro-498
+Ivo-720","TECHNICAL COVERAGE
+MUST       4/4   ✓ COMPLETE
+SHOULD   3/3   ✓ COMPLETE
+COULD     7/8   ⚠ 1 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Hardware — 4 member(s)
+✓ NumPy — 3 member(s)
+✓ C — 4 member(s)
+✓ Python — 4 member(s)
+
+REDUNDANCY
+✓ 4/4 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 6/6 (100%)
+██████████
+Shared projects: 30 total
+Mean among pairs with history: 5.0
+Strongest-history pair: 6 project(s)",,
+C024,P6,T-7642,"Tina-490
+Zoe-311
+Levi-494
+Kira-174
+Lara-480
+Zeca-538
+Liz-637","TECHNICAL COVERAGE
+MUST       2/2   ✓ COMPLETE
+SHOULD     19/19   ✓ COMPLETE
+COULD      39/43   ⚠ 4 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Android — 7 member(s)
+✓ iOS — 7 member(s)
+
+REDUNDANCY
+✓ 2/2 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 14/21 (67%)
+███████░░░
+Shared projects: 42 total
+Mean among pairs with history: 3.0
+Strongest-history pair: 6 project(s)",T-4412,"Mia-382
+Gabi-94
+Nilo-402
+Tom-183
+Davi-290
+Ceci-363
+Gabi-484","TECHNICAL COVERAGE
+MUST       2/2   ✓ COMPLETE
+SHOULD   16/19   ⚠ 3 MISSING
+COULD     24/43   ⚠ 19 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Android — 7 member(s)
+✓ iOS — 4 member(s)
+
+REDUNDANCY
+✓ 2/2 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 21/21 (100%)
+██████████
+Shared projects: 79 total
+Mean among pairs with history: 3.8
+Strongest-history pair: 6 project(s)",,
+C025,P1,T-6473,"Luiz-324
+Rosa-359
+Ana-448
+Jade-305
+Gael-170
+Hugo-543
+Eli-503
+Ana-578
+Lara-220","TECHNICAL COVERAGE
+MUST       2/2   ✓ COMPLETE
+SHOULD   13/13   ✓ COMPLETE
+COULD     38/65   ⚠ 27 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Mobile — 8 member(s)
+✓ Web — 9 member(s)
+
+REDUNDANCY
+✓ 2/2 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 36/36 (100%)
+██████████
+Shared projects: 160 total
+Mean among pairs with history: 4.4
+Strongest-history pair: 11 project(s)",T-6084,"Eli-178
+Ivo-655
+Zoe-636
+Mia-447
+Mila-27
+Mila-482
+Ana-578
+Miro-303
+Jade-435","TECHNICAL COVERAGE
+MUST       2/2   ✓ COMPLETE
+SHOULD     13/13   ✓ COMPLETE
+COULD      64/65   ⚠ 1 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Mobile — 9 member(s)
+✓ Web — 9 member(s)
+
+REDUNDANCY
+✓ 2/2 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 28/36 (78%)
+████████░░
+Shared projects: 148 total
+Mean among pairs with history: 5.3
+Strongest-history pair: 23 project(s)",,
+C029,P10,T-3094,"Tom-183
+Gabi-354
+Mila-27
+Davi-615
+Zoe-181
+Nilo-532
+Ceci-363
+Yuri-486","TECHNICAL COVERAGE
+MUST       1/1   ✓ COMPLETE
+SHOULD     27/27   ✓ COMPLETE
+COULD      63/72   ⚠ 9 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Web — 8 member(s)
+
+REDUNDANCY
+✓ 1/1 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 23/28 (82%)
+████████░░
+Shared projects: 84 total
+Mean among pairs with history: 3.7
+Strongest-history pair: 24 project(s)",T-5887,"Davi-615
+Teo-257
+Enzo-477
+Gabi-94
+Lino-496
+Mia-382
+Bela-492
+Mila-27","TECHNICAL COVERAGE
+MUST       1/1   ✓ COMPLETE
+SHOULD   26/27   ⚠ 1 MISSING
+COULD     39/72   ⚠ 33 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Web — 7 member(s)
+
+REDUNDANCY
+✓ 1/1 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 28/28 (100%)
+██████████
+Shared projects: 128 total
+Mean among pairs with history: 4.6
+Strongest-history pair: 8 project(s)",,
+C030,P11,T-8513,"Maya-205
+Sam-250
+Sara-154
+Sara-349
+Ada-716
+Ravi-398
+Nina-202
+Iris-536
+Tito-143","TECHNICAL COVERAGE
+MUST       — NOT DEFINED
+SHOULD     5/5   ✓ COMPLETE
+COULD      50/56   ⚠ 6 MISSING
+
+MANDATORY REQUIREMENTS
+No MUST requirement defined.
+
+REDUNDANCY
+Not applicable","REGISTERED COLLABORATION
+Pairs with history: 22/36 (61%)
+██████░░░░
+Shared projects: 51 total
+Mean among pairs with history: 2.3
+Strongest-history pair: 4 project(s)",T-2548,"Ari-437
+Jo-583
+Nilo-467
+Leo-336
+Miro-498
+Bia-458
+Mia-317
+Lara-415
+Enzo-282","TECHNICAL COVERAGE
+MUST       — NOT DEFINED
+SHOULD   4/5   ⚠ 1 MISSING
+COULD     35/56   ⚠ 21 MISSING
+
+MANDATORY REQUIREMENTS
+No MUST requirement defined.
+
+REDUNDANCY
+Not applicable","REGISTERED COLLABORATION
+Pairs with history: 36/36 (100%)
+██████████
+Shared projects: 153 total
+Mean among pairs with history: 4.3
+Strongest-history pair: 9 project(s)",,
+C035,P6,T-4412,"Mia-382
+Gabi-94
+Nilo-402
+Tom-183
+Davi-290
+Ceci-363
+Gabi-484","TECHNICAL COVERAGE
+MUST       2/2   ✓ COMPLETE
+SHOULD   16/19   ⚠ 3 MISSING
+COULD     24/43   ⚠ 19 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Android — 7 member(s)
+✓ iOS — 4 member(s)
+
+REDUNDANCY
+✓ 2/2 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 21/21 (100%)
+██████████
+Shared projects: 79 total
+Mean among pairs with history: 3.8
+Strongest-history pair: 6 project(s)",T-7642,"Tina-490
+Zoe-311
+Levi-494
+Kira-174
+Lara-480
+Zeca-538
+Liz-637","TECHNICAL COVERAGE
+MUST       2/2   ✓ COMPLETE
+SHOULD     19/19   ✓ COMPLETE
+COULD      39/43   ⚠ 4 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Android — 7 member(s)
+✓ iOS — 7 member(s)
+
+REDUNDANCY
+✓ 2/2 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 14/21 (67%)
+███████░░░
+Shared projects: 42 total
+Mean among pairs with history: 3.0
+Strongest-history pair: 6 project(s)",,
+C036,P14,T-2098,"Rosa-359
+Lara-220
+Ivan-357
+Eli-503","TECHNICAL COVERAGE
+MUST       4/4   ✓ COMPLETE
+SHOULD   4/4   ✓ COMPLETE
+COULD     23/45   ⚠ 22 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Web — 4 member(s)
+✓ Angular — 4 member(s)
+✓ Progressive Web App (PWA) — 4 member(s)
+✓ CSS — 3 member(s)
+
+REDUNDANCY
+✓ 4/4 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 6/6 (100%)
+██████████
+Shared projects: 28 total
+Mean among pairs with history: 4.7
+Strongest-history pair: 6 project(s)",T-9086,"Sam-250
+Maya-205
+Ravi-398
+Tito-468","TECHNICAL COVERAGE
+MUST       4/4   ✓ COMPLETE
+SHOULD     4/4   ✓ COMPLETE
+COULD      35/45   ⚠ 10 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Web — 3 member(s)
+✓ Angular — 4 member(s)
+✓ Progressive Web App (PWA) — 3 member(s)
+✓ CSS — 2 member(s)
+
+REDUNDANCY
+✓ 4/4 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 4/6 (67%)
+███████░░░
+Shared projects: 12 total
+Mean among pairs with history: 3.0
+Strongest-history pair: 4 project(s)",,
+C040,P2,T-4526,"Nina-7
+Davi-290
+Gabi-484
+Raul-33
+Gabi-94
+Gael-560
+Mia-447
+Nina-397","TECHNICAL COVERAGE
+MUST       — NOT DEFINED
+SHOULD   11/20   ⚠ 9 MISSING
+COULD     29/57   ⚠ 28 MISSING
+
+MANDATORY REQUIREMENTS
+No MUST requirement defined.
+
+REDUNDANCY
+Not applicable","REGISTERED COLLABORATION
+Pairs with history: 21/28 (75%)
+████████░░
+Shared projects: 89 total
+Mean among pairs with history: 4.2
+Strongest-history pair: 18 project(s)",T-7139,"Levi-169
+Sara-479
+Ari-177
+Gabi-354
+Maia-676
+Lara-545
+Ivo-525
+Tina-165","TECHNICAL COVERAGE
+MUST       — NOT DEFINED
+SHOULD     20/20   ✓ COMPLETE
+COULD      54/57   ⚠ 3 MISSING
+
+MANDATORY REQUIREMENTS
+No MUST requirement defined.
+
+REDUNDANCY
+Not applicable","REGISTERED COLLABORATION
+Pairs with history: 23/28 (82%)
+████████░░
+Shared projects: 37 total
+Mean among pairs with history: 1.6
+Strongest-history pair: 3 project(s)",,
+C041,P12,T-8599,"Ravi-398
+Lara-415
+Nilo-467
+Bia-458","TECHNICAL COVERAGE
+MUST       — NOT DEFINED
+SHOULD   6/9   ⚠ 3 MISSING
+COULD     21/28   ⚠ 7 MISSING
+
+MANDATORY REQUIREMENTS
+No MUST requirement defined.
+
+REDUNDANCY
+Not applicable","REGISTERED COLLABORATION
+Pairs with history: 6/6 (100%)
+██████████
+Shared projects: 23 total
+Mean among pairs with history: 3.8
+Strongest-history pair: 6 project(s)",T-4961,"Maya-335
+Bia-458
+Jade-370
+Eli-438","TECHNICAL COVERAGE
+MUST       — NOT DEFINED
+SHOULD     9/9   ✓ COMPLETE
+COULD      25/28   ⚠ 3 MISSING
+
+MANDATORY REQUIREMENTS
+No MUST requirement defined.
+
+REDUNDANCY
+Not applicable","REGISTERED COLLABORATION
+Pairs with history: 5/6 (83%)
+████████░░
+Shared projects: 14 total
+Mean among pairs with history: 2.8
+Strongest-history pair: 5 project(s)",,
+C044,P7,T-5308,"Gabi-354
+Ada-326
+Mila-27
+Ivo-525
+Tina-165","TECHNICAL COVERAGE
+MUST       1/1   ✓ COMPLETE
+SHOULD     29/29   ✓ COMPLETE
+COULD      40/40   ✓ COMPLETE
+
+MANDATORY REQUIREMENTS
+✓ Web — 5 member(s)
+
+REDUNDANCY
+✓ 1/1 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 9/10 (90%)
+█████████░
+Shared projects: 19 total
+Mean among pairs with history: 2.1
+Strongest-history pair: 4 project(s)",T-8765,"Iris-81
+Jade-370
+Lara-415
+Enzo-282
+Leo-336","TECHNICAL COVERAGE
+MUST       1/1   ✓ COMPLETE
+SHOULD   12/29   ⚠ 17 MISSING
+COULD     15/40   ⚠ 25 MISSING
+
+MANDATORY REQUIREMENTS
+✓ Web — 4 member(s)
+
+REDUNDANCY
+✓ 1/1 MUST covered by 2+ members","REGISTERED COLLABORATION
+Pairs with history: 10/10 (100%)
+██████████
+Shared projects: 54 total
+Mean among pairs with history: 5.4
+Strongest-history pair: 7 project(s)",,
+C046,P16,T-9373,"Mia-317
+Iris-81
+Mel-316
+Nilo-467
+Lara-415
+Jade-370
+Ravi-398
+Leo-336
+Enzo-282","TECHNICAL COVERAGE
+MUST       — NOT DEFINED
+SHOULD   10/12   ⚠ 2 MISSING
+COULD     33/57   ⚠ 24 MISSING
+
+MANDATORY REQUIREMENTS
+No MUST requirement defined.
+
+REDUNDANCY
+Not applicable","REGISTERED COLLABORATION
+Pairs with history: 36/36 (100%)
+██████████
+Shared projects: 201 total
+Mean among pairs with history: 5.6
+Strongest-history pair: 12 project(s)",T-7294,"Tom-183
+Maia-351
+Gabi-679
+Ceci-363
+Jade-500
+Mila-482
+Max-509
+Zoe-181
+Raul-423","TECHNICAL COVERAGE
+MUST       — NOT DEFINED
+SHOULD     12/12   ✓ COMPLETE
+COULD      51/57   ⚠ 6 MISSING
+
+MANDATORY REQUIREMENTS
+No MUST requirement defined.
+
+REDUNDANCY
+Not applicable","REGISTERED COLLABORATION
+Pairs with history: 31/36 (86%)
+█████████░
+Shared projects: 134 total
+Mean among pairs with history: 4.3
+Strongest-history pair: 23 project(s)",,
+C051,P9,T-1384,"Davi-290
+Mia-382
+Gael-560
+Teo-647
+Gabi-484
+Gabi-94","TECHNICAL COVERAGE
+MUST       — NOT DEFINED
+SHOULD   4/5   ⚠ 1 MISSING
+COULD     30/71   ⚠ 41 MISSING
+
+MANDATORY REQUIREMENTS
+No MUST requirement defined.
+
+REDUNDANCY
+Not applicable","REGISTERED COLLABORATION
+Pairs with history: 10/15 (67%)
+███████░░░
+Shared projects: 43 total
+Mean among pairs with history: 4.3
+Strongest-history pair: 6 project(s)",T-6725,"Eva-449
+Bela-492
+Zeca-473
+Maia-351
+Sara-154
+Zeca-538","TECHNICAL COVERAGE
+MUST       — NOT DEFINED
+SHOULD     5/5   ✓ COMPLETE
+COULD      71/71   ✓ COMPLETE
+
+MANDATORY REQUIREMENTS
+No MUST requirement defined.
+
+REDUNDANCY
+Not applicable","REGISTERED COLLABORATION
+Pairs with history: 11/15 (73%)
+███████░░░
+Shared projects: 38 total
+Mean among pairs with history: 3.5
+Strongest-history pair: 7 project(s)",,

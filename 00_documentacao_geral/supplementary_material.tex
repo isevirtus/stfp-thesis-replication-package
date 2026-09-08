@@ -1,0 +1,196 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+\renewcommand{\baselinestretch}{0.87}
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+
+
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{comment}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage[pdftex]{hyperref}
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{dingbat}
+\usepackage{float}
+\usepackage{biblatex}
+\addbibresource{bibliography.bib}
+
+\setlength{\arrayrulewidth}{0.2mm}
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.5}
+
+\usepackage[margin=15mm]{geometry}
+\usepackage{tabularray}
+
+\usepackage{makecell, longtable}
+\renewcommand\theadfont{\bfseries\small}
+\renewcommand\theadgape{}
+\usepackage{stfloats}
+    \renewcommand{\dblfloatpagefraction}{.9}
+
+\usepackage{amsmath}
+\usepackage[skip=1ex]{caption}
+
+\usepackage{lipsum}
+
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+    
+\begin{document}
+
+\title{Interpretable by Design, Efficient by Distillation: An Industrial Study of Expert-Guided Search-Based Software Team Formation [Supplementary Material]\\
+}
+
+
+\author{
+\IEEEauthorblockN{
+Felipe Cunha\IEEEauthorrefmark{1},
+Mirko Perkusich\IEEEauthorrefmark{1},
+Rian Gabriel Santos Pinheiro\IEEEauthorrefmark{2}\\
+Evandro Costa\IEEEauthorrefmark{2},
+Danyllo Albuquerque\IEEEauthorrefmark{1},
+Kyller Gorgônio\IEEEauthorrefmark{1},
+Angelo Perkusich\IEEEauthorrefmark{1}
+}
+
+\IEEEauthorblockA{
+\IEEEauthorrefmark{1}VIRTUS Research Group, Federal University of Campina Grande, Campina Grande, Brazil\\
+\IEEEauthorrefmark{2}Federal University of Alagoas, Maceió, Brazil
+}
+}
+
+\maketitle
+
+\renewcommand{\thetable}{S\arabic{table}}
+
+\section{Introduction}
+
+This document provides supplementary material for the paper \emph{Interpretable by Design, Efficient by Distillation: An Industrial Study of Expert-Guided Search-Based Software Team Formation}. It preserves detailed experimental evidence summarized in the main paper without altering or recalculating any data.
+
+Table~\ref{tab:data-summary} characterizes the industrial dataset used to calibrate and evaluate the pipeline, including the candidate pool, technical taxonomy, temporal project split, team-size distribution, and collaboration graph. Table~\ref{tab:rq5-design} documents the retained practitioner-validation design and distinguishes unique cases, repeated comparisons used to examine consistency, and isolated acceptability judgements.
+
+Table~\ref{tab:rq2-ilp-ga-summary} provides the complete project-level evidence for RQ2 by comparing the exact MILP reference and the calibrated GA through solution quality, stochastic variability, optimum-hit counts, runtime, and speedup. Table~\ref{tab:rq3-backtest} provides the complete project-level evidence for RQ3 by comparing the calibrated-GA recommendations with the historical teams through overall team fit, collaborative adequacy, and relative gain on the sixteen held-out 2025 projects.
+
+Together, these tables support reproducibility and allow readers to trace the aggregate results and interpretations reported in the paper to their underlying project-level evidence.
+
+%aqui estão as tabelas do artigo do SEIP, não mexa nos dados:
+
+
+\begin{table}[H]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Summary of the industrial dataset.}
+\label{tab:data-summary}
+\begin{tabular}{p{0.34\linewidth}p{0.58\linewidth}}
+\hline
+Aspect & Summary \\
+\hline
+Candidate pool & 512 developers with at least one classified technical competence. \\
+Technical taxonomy & 13 domains, 213 ecosystems, and 23 programming languages.
+Median per developer: 2 domains, 6 ecosystems, and 3 languages. \\
+Calibration projects & 205 projects starting up to 2024. Team sizes:
+$k{=}4$: 45, $k{=}5$: 38, $k{=}6$: 37, $k{=}7$: 30, $k{=}8$: 26, $k{=}9$: 29. \\
+Held-out projects & 16 projects starting in 2025. Team sizes:
+$k{=}4$: 4, $k{=}5$: 4, $k{=}6$: 1, $k{=}7$: 1, $k{=}8$: 2, $k{=}9$: 4. \\
+Collaboration graph & Pairwise collaboration history extracted from prior project co-participation and transformed through the expert-calibrated compatibility function. \\
+\hline
+\end{tabular}
+\end{table}
+
+
+\begin{table}[H]
+\caption{Retained practitioner-validation design.}
+\label{tab:rq5-design}
+\centering
+\small
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrr}
+\hline
+Task & Unique cases & Repeats & Rows \\
+\hline
+Calibrated GA vs. historical & 16 & 3 & 19 \\
+Calibrated GA vs. uniform GA & 12 & 2 & 14 \\
+Calibrated-GA acceptability & 16 & -- & 16 \\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\clearpage
+\begin{table*}[!t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\caption{RQ2 comparison between the exact MILP reference and the calibrated GA on the twelve size-four controlled benchmark projects.}
+\label{tab:rq2-ilp-ga-summary}
+\begin{tabular}{lrrrrrrr}
+\hline
+Project & MILP AE & GA best AE & Best gap (\%) & GA AE mean $\pm$ SD & Hits/30 & MILP time (s) & Speedup \\
+\hline
+P1  & 0.818783 & 0.818783 & 0.00 & 0.788474 $\pm$ 0.050642 & 12 & 109.69  & 7.85$\times$ \\
+P2  & 0.844445 & 0.844445 & 0.00 & 0.769284 $\pm$ 0.059689 & 7  & 208.44  & 10.26$\times$ \\
+P3  & 0.813492 & 0.810847 & 0.33 & 0.789697 $\pm$ 0.032128 & 0  & 186.75  & 7.61$\times$ \\
+P4  & 0.864286 & 0.864286 & 0.00 & 0.817566 $\pm$ 0.033847 & 1  & 45.74   & 4.41$\times$ \\
+P5  & 0.843915 & 0.826720 & 2.04 & 0.771497 $\pm$ 0.032369 & 0  & 34.46   & 2.20$\times$ \\
+P6  & 0.781746 & 0.781746 & 0.00 & 0.753527 $\pm$ 0.035620 & 14 & 508.73  & 93.51$\times$ \\
+P7  & 0.870900 & 0.859326 & 1.33 & 0.858016 $\pm$ 0.004189 & 0  & 585.89  & 117.37$\times$ \\
+P8  & 0.857672 & 0.857672 & 0.00 & 0.790728 $\pm$ 0.054681 & 10 & 195.47  & 27.33$\times$ \\
+P9  & 0.867725 & 0.867725 & 0.00 & 0.854559 $\pm$ 0.023670 & 16 & 122.19  & 15.06$\times$ \\
+P10 & 0.900794 & 0.900794 & 0.00 & 0.876323 $\pm$ 0.024483 & 11 & 105.33  & 26.60$\times$ \\
+P11 & 0.834656 & 0.834656 & 0.00 & 0.779374 $\pm$ 0.031629 & 2  & 73.92   & 12.84$\times$ \\
+P12 & 0.877513 & 0.857672 & 2.26 & 0.794899 $\pm$ 0.028884 & 0  & 226.69  & 45.79$\times$ \\
+\hline
+Summary & -- & -- & 0.50 mean & -- & 73/360 & -- & 13.95$\times$ median \\
+\hline
+\end{tabular}
+\end{table*}
+
+
+\begin{table*}[!t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\caption{RQ3 backtest on the sixteen held-out 2025 projects.}
+\label{tab:rq3-backtest}
+\begin{tabular}{lrrrrrr}
+\hline
+Project & $k$ & $\mathrm{AE}_{\mathrm{real}}$ & $\mathrm{AE}_{\mathrm{GA}}$ & Gain (\%) & $\mathrm{AC}_{\mathrm{real}}$ & $\mathrm{AC}_{\mathrm{GA}}$ \\
+\hline
+P1  & 9 & 0.5238 & 0.6114 & 16.72 & 0.5143 & 0.8111 \\
+P2  & 8 & 0.3750 & 0.5167 & 37.78 & 0.3643 & 0.6000 \\
+P3  & 5 & 0.4532 & 0.6822 & 50.53 & 0.4200 & 0.7200 \\
+P4  & 9 & 0.4008 & 0.6506 & 62.32 & 0.3571 & 0.8167 \\
+P5  & 4 & 0.5762 & 0.6365 & 10.47 & 0.6000 & 0.8667 \\
+P6  & 7 & 0.5246 & 0.5393 & 2.81  & 0.7667 & 0.7952 \\
+P7  & 5 & 0.5817 & 0.6326 & 8.75  & 0.6333 & 0.8600 \\
+P8  & 5 & 0.4365 & 0.6757 & 54.80 & 0.4000 & 0.8400 \\
+P9  & 6 & 0.4048 & 0.5311 & 31.20 & 0.4000 & 0.6467 \\
+P10 & 8 & 0.5869 & 0.6162 & 5.00  & 0.6643 & 0.8429 \\
+P11 & 9 & 0.3274 & 0.5041 & 53.98 & 0.3071 & 0.6833 \\
+P12 & 4 & 0.3770 & 0.5178 & 37.35 & 0.3667 & 0.7667 \\
+P13 & 4 & 0.7817 & 0.8643 & 10.56 & 0.7667 & 0.9000 \\
+P14 & 4 & 0.4008 & 0.9008 & 124.75 & 0.3000 & 0.9000 \\
+P15 & 5 & 0.3770 & 0.5347 & 41.84 & 0.3667 & 0.7400 \\
+P16 & 9 & 0.4373 & 0.4963 & 13.48 & 0.4810 & 0.7667 \\
+\hline
+Mean & -- & 0.4728 & 0.6194 & 35.15 & 0.4818 & 0.7847 \\
+\hline
+\end{tabular}
+\end{table*}
+
+\FloatBarrier
+\clearpage
+
+\end{document}
